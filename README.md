@@ -8,6 +8,13 @@
 - A web server (such as Apache or Nginx)
 - A MySQL database server
 
+1. Make a database named `bookstore_db`.
+2. Import the `bookstore_db.sql` file into the database.
+3. Use the `config.php` file to configure the database connection. (Only if you know what you are doing !)
+4. Use the admin username and password to login to the admin panel. (Default username: `admin@gmail.com` and password: `admin`)
+5. Add books to the database using the admin panel.
+
+
 #### Once you have these dependencies installed, you can clone the repository to your local machine and start the web server to access the website.
 
 # Usage
