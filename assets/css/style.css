@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    height: auto;
+    width: auto;
+    max-height: 14vh;
+    max-width: 14vh;
+}
+
+.hero {
+    background-image: url("../img/hero-cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.know-more {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: rgb(127, 185, 221);
+    color: white;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.quote {
+    color: #fff;
+    background-image: url("../img/quote-banner.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.property-box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.property-box h1,
+.property-box h2,
+.property-box h3 {
+    font-family: century-gothic, sans-serif;
+    color: black;
+}
+
+.property-box h1 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.property-box h2 {
+    font-size: 1.3rem;
+}
+
+.property-box h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.property-box img {
+    object-fit: cover !important;
+    width: 25vh;
+}
+
+.login {
+    width: auto;
+    height: 250px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
