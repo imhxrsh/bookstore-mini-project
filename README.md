@@ -6,6 +6,7 @@
 #### To set up the Bookstore Mini-Project, you will need to have the following dependencies installed on your system:
 - PHP 7.4 or higher
 - A web server (such as Apache or Nginx)
+- A MySQL database server
 
 #### Once you have these dependencies installed, you can clone the repository to your local machine and start the web server to access the website.
 
