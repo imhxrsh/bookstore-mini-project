@@ -7,7 +7,7 @@
 - PHP 7.4 or higher
 - A web server (such as Apache or Nginx)
 - A MySQL database server
-
+#### Setup database:
 1. Make a database named `bookstore_db`.
 2. Import the `bookstore_db.sql` file into the database.
 3. Use the `config.php` file to configure the database connection. (Only if you know what you are doing !)
