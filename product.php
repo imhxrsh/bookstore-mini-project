@@ -46,7 +46,7 @@ if(isset($_POST['add_to_cart'])){
 </head>
 
 <body>
-    <?php include 'header.php';?>
+    <?php include 'header.html';?>
 
     <section class="text-center new-arrivals px-5">
         <div class="position-relative stroke-container">
@@ -87,7 +87,7 @@ if(isset($_POST['add_to_cart'])){
         </div>
     </section>
 
-    <?php include 'footer.php';?>
+    <?php include 'footer.html';?>
 
 
 

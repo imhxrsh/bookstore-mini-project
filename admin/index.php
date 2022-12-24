@@ -15,7 +15,7 @@ session_start();
 </head>
 
 <body>
-    <?php include 'header.php';?>
+    <?php include 'header.html';?>
 
     <section class="container">
         <div class="row justify-content-center py-5">

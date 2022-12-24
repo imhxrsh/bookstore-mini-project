@@ -47,7 +47,7 @@ if (isset($_POST['update_product'])) {
 </head>
 
 <body>
-    <?php include 'header.php';?>
+    <?php include 'header.html';?>
 
     <section class="container">
         <?php

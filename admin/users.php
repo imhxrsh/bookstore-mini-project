@@ -26,7 +26,7 @@ if(isset($_GET['delete'])){
 </head>
 
 <body>
-    <?php include 'header.php';?>
+    <?php include 'header.html';?>
 
     <section class="container">
         <div class="row justify-content-center">

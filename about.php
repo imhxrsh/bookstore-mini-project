@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include 'header.php';?>
+    <?php include 'header.html';?>
     <div id="about-hero" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#about-hero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -145,7 +145,7 @@
         </div>
     </section>
 
-    <?php include 'footer.php';?>
+    <?php include 'footer.html';?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
