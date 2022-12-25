@@ -33,4 +33,4 @@ This project was created by [Harsh Vishwakarma](https://github.com/imhxrsh/). Sp
 - [Bootstrap](https://getbootstrap.com/)
 
 
-Thank you for using the Bookstore Mini-Project!
+Thank you for using the Bookstore!
