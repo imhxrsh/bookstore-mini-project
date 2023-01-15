@@ -4,14 +4,6 @@ include 'configs.php';
 
 session_start();
 
-$user_id = $_SESSION['user_id'];
-
-if(!isset($user_id)){
-   header('location:login.php');
-}else{
-    $loggedin1 = '<a class="nav-link" href="login.php">Login</a>';
-    $loggedin2 = '<a class="nav-link" href="signup.php">Sign UP</a>';
-}
 
 if(isset($_POST['add_to_cart'])){
 

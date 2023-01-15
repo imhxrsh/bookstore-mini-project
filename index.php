@@ -4,7 +4,6 @@ include 'configs.php';
 
 session_start();
 
-$user_id = $_SESSION['user_id'];
 
 if(isset($_POST['add_to_cart'])){
 
@@ -45,12 +44,11 @@ if(isset($_POST['add_to_cart'])){
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 style="font-size: 25px;padding-bottom:15px;margin-bottom:-3rem;color:white;font-family: 'Lobster Two', cursive;">
+                    <h2 style="font-size: 25px">
                         All Your Books Under One Roof</h2>
-                    <h1 style="font-size:61px; color: rgb(127, 185, 221);margin-top: 84px;">THE BOOKYARD</h1>
-                    <h2 style="font-size: 25px;padding-top: 15px;color:white;font-family: 'Lobster Two', cursive;">READ
-                        TO LEARN,READ TO GROW</h2>
-                    <button class="know-more btn btn-primary">No More</button>
+                    <h1 style="font-size:61px; color: rgb(127, 185, 221)">THE BOOKYARD</h1>
+                    <h2 style="font-size: 25px">READ TO LEARN,READ TO GROW</h2>
+                    <button class="know-more btn btn-primary">Know More !</button>
                 </div>
             </div>
         </div>
@@ -65,7 +63,7 @@ if(isset($_POST['add_to_cart'])){
                     </h2>
                     <br>
                     <p class="text-start">
-                        You need to log in to view the compatible devices.
+                        You need to log in to order books.
                     </p>
                 </div>
             </div>
@@ -100,7 +98,7 @@ if(isset($_POST['add_to_cart'])){
     </section>
     <section class="container text-center my-5">
         <div class="position-relative stroke-container">
-            <h1>Our Boobs</h1>
+            <h1>Our Books</h1>
         </div>
     </div>
 
